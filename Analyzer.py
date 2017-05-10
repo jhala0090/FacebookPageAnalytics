@@ -28,8 +28,8 @@ db=SQLAlchemy(app)
 plotly.tools.set_credentials_file(username='DeependraSinghJhala', api_key='g4a8ast2d0')
 
 # App Key to access Facebook Graph API
-app_id = "1578266429148418"
-app_secret = "96977d99ea386a0836b06fa7a6e4a182" # DO NOT SHARE WITH ANYONE!
+app_id = ""
+app_secret = "" # DO NOT SHARE WITH ANYONE!
 access_token = app_id + "|" + app_secret
 
 #variable to store user Inputs & db table name
