@@ -43,7 +43,7 @@ graphflag=0
 # Create Data Base Connection
 hostname = 'localhost'
 username = 'postgres'
-password = 'Dh00mketu'
+password = '####'
 database = 'postgres'
 myConnection = psycopg2.connect(host=hostname, user=username, password=password, dbname=database)
 cur = myConnection.cursor()
